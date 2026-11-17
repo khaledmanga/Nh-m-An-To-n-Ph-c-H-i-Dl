@@ -1,8 +1,11 @@
 {
- "ma_nhom": "N00",
- "he_thong": "fat32",
+ "ma_nhom": "NEEDFORFOOD",
+ "he_thong": "exfat",
  "thanh_vien": [
-  {"mssv": "", "ho_ten": "", "phu_trach": ""}
+  {"mssv": "21126020", "ho_ten": "Trương Hoàng Kha", "phu_trach": ""},
+    {"mssv": "22127189", "ho_ten": "Phạm Bình Khánh", "phu_trach": ""},
+    {"mssv": "23127140", "ho_ten": "Đặng Nguyễn Duy Tuyên", "phu_trach": ""},
+    {"mssv": "23127282", "ho_ten": "Trần Sở Vinh", "phu_trach": ""}
  ],
  "cong_diem": {
   "repair": [],
