@@ -28,7 +28,10 @@ class BaiLam:
     def case1(self, img, out):
         """Tình huống 1 — sai tham số boot sector / superblock.
         Suy ra giá trị đúng, rồi trích xuất MỌI tập tin: out.luu("DATA/A12.JPG", data)."""
-        raise NotImplementedError("case1")
+
+        # Read case 1 using the geometry inferred from the image.
+        from recovery.case1 import recover_case1
+        return recover_case1(img, out, self.log)
 
     def case2(self, img, out):
         """Tình huống 2 — sai directory entry. Ghép đúng tên với dữ liệu, lưu các tập tin bị ảnh hưởng
