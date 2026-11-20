@@ -40,7 +40,8 @@ class BaiLam:
 
     def case3(self, img, out):
         """Tình huống 3 — sai chuỗi vị trí. Ghép mảnh theo nội dung, lưu tập tin JPEG mục tiêu."""
-        raise NotImplementedError("case3")
+        from recovery.case3 import recover_case3
+        return recover_case3(img, out, self.log)
 
     def case_ext(self, img, out):
         """Tình huống mở rộng nhóm đã chọn (khai trong nhom.json)."""

@@ -9,3 +9,4 @@ samples/*
 !samples/README.md
 samples/fat32/*
 !samples/fat32/.gitkeep
+recovery_pic/
