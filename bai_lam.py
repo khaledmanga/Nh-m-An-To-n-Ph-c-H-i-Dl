@@ -8,7 +8,7 @@ Quy tắc:
   * Ghi nhật ký mọi bước quan trọng: self.log.buoc(...), self.log.quyet_dinh(...).
   * Có thể tách mã ra nhiều tệp (vd. ntfs.py, runlist.py) và import vào đây.
 """
-
+from fat32_case2 import recover_case2
 
 class BaiLam:
     def __init__(self, log):
@@ -33,7 +33,7 @@ class BaiLam:
     def case2(self, img, out):
         """Tình huống 2 — sai directory entry. Ghép đúng tên với dữ liệu, lưu các tập tin bị ảnh hưởng
         (lưu thêm cả tập tin không bị ảnh hưởng cũng được)."""
-        raise NotImplementedError("case2")
+        recover_case2(img, out, self.log)
 
     def case3(self, img, out):
         """Tình huống 3 — sai chuỗi vị trí. Ghép mảnh theo nội dung, lưu tập tin JPEG mục tiêu."""
