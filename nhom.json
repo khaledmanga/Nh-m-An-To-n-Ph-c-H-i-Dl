@@ -1,0 +1,15 @@
+{
+ "ma_nhom": "NEEDFORFOOD",
+ "he_thong": "fat32",
+ "thanh_vien": [
+  {"mssv": "21126020", "ho_ten": "Trương Hoàng Kha", "phu_trach": ""},
+    {"mssv": "22127189", "ho_ten": "Phạm Bình Khánh", "phu_trach": ""},
+    {"mssv": "23127140", "ho_ten": "Đặng Nguyễn Duy Tuyên", "phu_trach": ""},
+    {"mssv": "23127282", "ho_ten": "Trần Sở Vinh", "phu_trach": ""}
+ ],
+ "cong_diem": {
+  "repair": [],
+  "mo_rong": null
+ },
+ "_huong_dan": "repair: danh sách tình huống có cài --repair, vd [1, 2]. mo_rong: null hoặc {\"tinh_huong\": \"ext-root|ext-size|ext-mbr\", \"dac_ta\": \"mo_rong.json\"}"
+}
